@@ -8,7 +8,7 @@
     
     <meta name="description" content="">
     
-    <link rel="preload" href="/Azure-Blog/assets/css/0.styles.4b1907c1.css" as="style"><link rel="preload" href="/Azure-Blog/assets/js/app.76ede2a1.js" as="script"><link rel="preload" href="/Azure-Blog/assets/js/2.8e2865ab.js" as="script"><link rel="preload" href="/Azure-Blog/assets/js/3.b55d8d3a.js" as="script"><link rel="preload" href="/Azure-Blog/assets/js/19.47445637.js" as="script"><link rel="prefetch" href="/Azure-Blog/assets/js/10.fb91bdc5.js"><link rel="prefetch" href="/Azure-Blog/assets/js/11.226fa1ad.js"><link rel="prefetch" href="/Azure-Blog/assets/js/12.afc301e4.js"><link rel="prefetch" href="/Azure-Blog/assets/js/13.40d87f78.js"><link rel="prefetch" href="/Azure-Blog/assets/js/14.4d9094b2.js"><link rel="prefetch" href="/Azure-Blog/assets/js/15.a333f84f.js"><link rel="prefetch" href="/Azure-Blog/assets/js/16.e2a42ce7.js"><link rel="prefetch" href="/Azure-Blog/assets/js/17.ed723490.js"><link rel="prefetch" href="/Azure-Blog/assets/js/18.f6e1292f.js"><link rel="prefetch" href="/Azure-Blog/assets/js/20.394445a4.js"><link rel="prefetch" href="/Azure-Blog/assets/js/4.08bb3e8b.js"><link rel="prefetch" href="/Azure-Blog/assets/js/5.7122eecc.js"><link rel="prefetch" href="/Azure-Blog/assets/js/6.336d3aaa.js"><link rel="prefetch" href="/Azure-Blog/assets/js/7.fa6dc4d3.js"><link rel="prefetch" href="/Azure-Blog/assets/js/8.b13f6e59.js"><link rel="prefetch" href="/Azure-Blog/assets/js/9.6e10d94b.js">
+    <link rel="preload" href="/Azure-Blog/assets/css/0.styles.4b1907c1.css" as="style"><link rel="preload" href="/Azure-Blog/assets/js/app.200a8a8b.js" as="script"><link rel="preload" href="/Azure-Blog/assets/js/2.8e2865ab.js" as="script"><link rel="preload" href="/Azure-Blog/assets/js/3.b55d8d3a.js" as="script"><link rel="preload" href="/Azure-Blog/assets/js/19.4f965571.js" as="script"><link rel="prefetch" href="/Azure-Blog/assets/js/10.fb91bdc5.js"><link rel="prefetch" href="/Azure-Blog/assets/js/11.226fa1ad.js"><link rel="prefetch" href="/Azure-Blog/assets/js/12.a1563c38.js"><link rel="prefetch" href="/Azure-Blog/assets/js/13.7a36cba5.js"><link rel="prefetch" href="/Azure-Blog/assets/js/14.34ca0eb8.js"><link rel="prefetch" href="/Azure-Blog/assets/js/15.535608b0.js"><link rel="prefetch" href="/Azure-Blog/assets/js/16.07422923.js"><link rel="prefetch" href="/Azure-Blog/assets/js/17.946fd42f.js"><link rel="prefetch" href="/Azure-Blog/assets/js/18.19128097.js"><link rel="prefetch" href="/Azure-Blog/assets/js/20.394445a4.js"><link rel="prefetch" href="/Azure-Blog/assets/js/4.08bb3e8b.js"><link rel="prefetch" href="/Azure-Blog/assets/js/5.7122eecc.js"><link rel="prefetch" href="/Azure-Blog/assets/js/6.60f99556.js"><link rel="prefetch" href="/Azure-Blog/assets/js/7.fa6dc4d3.js"><link rel="prefetch" href="/Azure-Blog/assets/js/8.b13f6e59.js"><link rel="prefetch" href="/Azure-Blog/assets/js/9.6e10d94b.js">
     <link rel="stylesheet" href="/Azure-Blog/assets/css/0.styles.4b1907c1.css">
   </head>
   <body>
@@ -30,7 +30,7 @@
     }
     return result;
 }
-</code></pre></div><p><code>b</code>方法创建一个新数组，其包含通过所提供函数实现的测试的所有元素。</p> <div class="language- extra-class"><pre class="language-text"><code>function filter(arr,callback){
+</code></pre></div><p>**<code>filter()</code>**方法创建一个新数组，其包含通过所提供函数实现的测试的所有元素。</p> <div class="language- extra-class"><pre class="language-text"><code>function filter(arr,callback){
     let result = [];
     for(let i=0;i&lt;arr.length;i++){
         let res = callback(arr[i],i);
@@ -58,7 +58,7 @@
     return -1;
 }
 
-</code></pre></div><p><code>b</code> 方法测试一个数组内的所有元素是否都能通过某个指定函数的测试。它返回一个布尔值。</p> <div class="language- extra-class"><pre class="language-text"><code>function every(arr,callback){
+</code></pre></div><p>**<code>every()</code>**方法测试一个数组内的所有元素是否都能通过某个指定函数的测试。它返回一个布尔值。</p> <div class="language- extra-class"><pre class="language-text"><code>function every(arr,callback){
     let result = [];
     let len = arr.length;
     for(let i=0;i&lt;len;i++){
@@ -69,7 +69,7 @@
     return result.length == len ? true:false;
 }
 
-</code></pre></div><p><code>b</code> 方法测试数组中是不是至少有 1 个元素通过了被提供的函数测试。它返回的是一个 Boolean 类型的值。</p> <div class="language- extra-class"><pre class="language-text"><code>function some(arr,callback){
+</code></pre></div><p><strong><code>some()</code></strong> 方法测试数组中是不是至少有 1 个元素通过了被提供的函数测试。它返回的是一个 Boolean 类型的值。</p> <div class="language- extra-class"><pre class="language-text"><code>function some(arr,callback){
     for(let i=0;i&lt;arr.length;i++){
         if(callback(arr[i])){
            return true;
@@ -86,6 +86,6 @@
       </a>
       →
     </span></p></div> </main></div><div class="global-ui"><!----></div></div>
-    <script src="/Azure-Blog/assets/js/app.76ede2a1.js" defer></script><script src="/Azure-Blog/assets/js/2.8e2865ab.js" defer></script><script src="/Azure-Blog/assets/js/3.b55d8d3a.js" defer></script><script src="/Azure-Blog/assets/js/19.47445637.js" defer></script>
+    <script src="/Azure-Blog/assets/js/app.200a8a8b.js" defer></script><script src="/Azure-Blog/assets/js/2.8e2865ab.js" defer></script><script src="/Azure-Blog/assets/js/3.b55d8d3a.js" defer></script><script src="/Azure-Blog/assets/js/19.4f965571.js" defer></script>
   </body>
 </html>
